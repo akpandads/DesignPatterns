@@ -1,0 +1,4 @@
+High Level classes should not depend on Low level classes.
+Instead both should depend on abstraction
+Abstraction should not depend on details.
+Details should depend on Abstraction

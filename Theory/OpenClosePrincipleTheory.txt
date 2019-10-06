@@ -1,0 +1,21 @@
+Open for extension
+Closed for modification
+
+Tradition disadvantage:
+Assuming class product has hundreds of attribute, writing a filter in traditional way will violate the open close principle and in turn decrease maintainability and testability of code.
+if open close principe is not followed then is most liklihood the existing code needs tobe changed
+
+Advantage of OC principle is that all new funxtionality can be added without making any modification ot existing class.
+
+Example:
+
+The ProductFilter class has all the filter methods defined in them.
+Any additional filter condition will require modification in the exiting ProductFilter class
+
+The EnhancedProductFilter class uses the interfaces Specfication and Filter.
+Any new filter conditions will require a new specification class created.
+
+To summarize,
+
+it is open to inherit or implement things.
+Not allaowed to modify the existing working functionality

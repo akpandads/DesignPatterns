@@ -1,0 +1,3 @@
+Guildeline to break an interface into smaller interfaces
+An interface must not have more than the methods that are actually used by the client
+YAGNI : You Aint Going to Need It philosophy

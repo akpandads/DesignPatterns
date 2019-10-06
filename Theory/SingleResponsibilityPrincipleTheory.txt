@@ -1,0 +1,6 @@
+A class should do only one thing
+Avoid GOD objects
+Separation of Concerns
+
+The Journal class does only one thing of taking care of journals
+The Persistence class takes care of writing to persistent storage, irrespective of the type of input

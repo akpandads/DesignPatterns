@@ -1,0 +1,3 @@
+the subclass should be able to replace the base class without breaking anything.
+The example shows how this could be violated
+For fixing these kind of errors factory design pattern is preferred
