@@ -1,0 +1,5 @@
+A prototype is a partially or fully implemented construct which is used for creating new objects and modify them.
+The new objects created from the prototype must not affect the original object
+Hence when creating anew object from prototype a deep copy needs to be performed.
+A deep copy is when you create a new object from an existing object, keeping in mind that the new object and  its references in no way point to the old object or its referenfces.
+This can be achieved by defining copy (constructors or custom deep copy methods) or a simple serializa and deserialize on an object.

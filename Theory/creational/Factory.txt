@@ -1,0 +1,5 @@
+A factory is a static method that creates object and takes care of object creation
+A factory can be exetrnal or inside the class as astatic inner class
+Static inner class have the advantage of having access to class private constructors
+A hierarchy of factories can be used for object creation , known as Abstract Factory Design Pattern
+
