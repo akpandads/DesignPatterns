@@ -1,0 +1,8 @@
+Some p objects can b e created ina  single constructor.
+But as number of parameters increase , the constructor becomes complex and is not productive.
+Instead use a piece wise initialization nd provide an API for the same to create an object
+
+
+Use fluent builder if required, to write long chains.
+For inheritance in Fluid Builder, the parent class must specify a generic argument which must be an inherited class of self
+faceted Builders are used to break a buuilder into several smaller builders
