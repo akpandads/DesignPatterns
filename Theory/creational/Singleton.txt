@@ -1,0 +1,22 @@
+A single object from any class
+Make a private constructor, private instance variable, and a static getter for instance variable.
+Intialize the object (private) inside a static block of  the class and have a static getter
+Lazineess and thread safety:
+
+In static getter method chekc if the private instance variable is null. If null then create one and return. Else return the exitsting one.
+To make it thread safe make the static getter synchronized .(performance issues)
+Else double check in method (Obsolete) where there is another inner static class which initializes the object, and outer static method returns the object
+
+Singletons can also be created using Enums. The drawback is persistence will not be possible,as enum values are never stored but only the name is staored.
+
+Multitons:
+Fixed numbe rof instances.
+A hashmap, an enum is required.
+Check if the enum exist in hashmap , if it does return it else create a new object. Put it in hashmap and then return it.
+
+Problems with singletons:
+1. Serialization can result in more than one object.
+2. Reflection utils to access to access the methods and make the constructor public.
+3. Unit tetsing is not easy.
+
+Instead of using singleton prefer to use an abstraction
