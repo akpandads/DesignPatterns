@@ -1,0 +1,5 @@
+Prevents Entity explosion
+
+Decouple abstraction from implemenatation
+Both can exist as hierarchies
+A stronger form of encapsulation

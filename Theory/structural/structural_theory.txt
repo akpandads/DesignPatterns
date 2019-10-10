@@ -1,0 +1,2 @@
+Concerned with structure wrapper that mimic underlying class interface
+Stress on the importance of good API design

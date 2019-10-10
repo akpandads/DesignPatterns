@@ -1,0 +1,5 @@
+Objects use other objects methdods and fields through inheritance or composition.
+Some composes or singular object need identical behaviour.
+So composite design pattern states sinhgular or collection of objects must be treated uniformly.
+Java provides Iterable to treat a list of object singularly.
+A single object can be returned as a collection containing a single object

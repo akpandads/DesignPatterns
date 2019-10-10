@@ -1,0 +1,5 @@
+A construct which adapts an exitsting interface X to conform to required interface Y.
+
+Determine the API you have and the API you need to provide
+Create a componenet which aggregates  or has a reference to the adaptee
+For intermediate representation use techniques like caching
