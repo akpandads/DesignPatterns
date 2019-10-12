@@ -1,0 +1,3 @@
+A space optimization technique that uses less memory by storing data externally associated with similar objects.
+Specify an index or reference into external data store
+Idea of ranges on homogeneous collections
