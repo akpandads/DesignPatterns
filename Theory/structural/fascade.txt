@@ -1,0 +1,2 @@
+Expose several components through a single interfcae
+Provides a simple, easy to use/understand user user interface over a large and sophisticated body of code.

@@ -1,0 +1,13 @@
+need is to modify an existing object with additional functionality.
+constraints are:
+should not rewrite or alter existing code (OCP principle)
+the new functionality should be kept separate (SRP principle)
+should be able to interact with existing structures.
+
+2 ways of doing it:
+1. Inherit from object and modify( but not possible when classes are final)
+2. Build decorator which references the object.
+
+Decorator pattern facilitates addition of behaviour to objects without inheriting them.
+may or may not forward/delegate calls
+Exists in static decoration
