@@ -1,0 +1,10 @@
+Same interface, different behaviour.
+A class that acts as an interface to a particular resource.
+Protection proxy protects a particular resource
+Property proxy replaces a field with a construct (like generic resource).
+Proxy interface provides identical interface while decorator provides enhance interface
+Decorator typically aggregates and has a reference to original object while proxy can have a brand new object
+
+-Proxy has same interface as underlying object
+-To create a prxoy simply replicate the existing interface of an object
+-Add relevant functionality to redefined members

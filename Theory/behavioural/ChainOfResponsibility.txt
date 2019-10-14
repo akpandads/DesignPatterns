@@ -1,0 +1,8 @@
+A chain of component who all get a chance tp process a command or query optionally having default implementation and an ability to terminate the processing chain.
+Command is when asking for action or change.
+Query is asking for information
+Separate means of sending commands ans queries.
+
+Can be implemented as a chain of reference or a xentralized construct.
+Enlist objects in the chain an dpossibly controll the order
+Object removal from chain.
