@@ -1,4 +1,4 @@
-package com.akpanda.behavioural;
+package com.akpanda.behavioural.chainofresponsibility;
 
 abstract class Creature
 {

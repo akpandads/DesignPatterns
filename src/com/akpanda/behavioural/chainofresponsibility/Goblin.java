@@ -1,4 +1,4 @@
-package com.akpanda.behavioural;
+package com.akpanda.behavioural.chainofresponsibility;
 
 class Goblin extends Creature
 {

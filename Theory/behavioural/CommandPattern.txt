@@ -1,0 +1,8 @@
+Ordinary java statements are perishable.
+Want an object that represents an operation
+An obhject which has instructions to perform a particular operation.
+
+Encapsulate all details pf an operation in a separate object
+Define instructions for applying the command
+Define instructions for undoing the command.
+Create composite commands
